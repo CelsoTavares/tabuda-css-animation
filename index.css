@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(180deg, blue, red) ;
+    background-size: cover;
+    padding-top: 100px;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+.container {
+    background-color: aliceblue;
+    width: 500px;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 15px 15px;
+    line-height: 35px;
+}
+.centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+img{
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 5px;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .estrela {
+      animation: estrela infinite 10s linear;
+    }
+  }
+ @keyframes estrela {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } 
